@@ -17,3 +17,27 @@ partprobe /dev/xvda
 p
 fdisk -l
 free -m
+yum install git -y
+git --version
+ll
+-al
+ls -al
+ls
+git init .
+ls -al
+touch file1
+ll
+vim file1
+cat file1 
+ls -al
+git add file1
+git status
+git commit -m "first commit" file1
+git log
+git status
+touch file2
+git add .
+git commit -m "second commit" .
+git status
+clear
+git log
